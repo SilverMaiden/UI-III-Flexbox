@@ -141,7 +141,7 @@ body {
 
 ul.services-facts-list {
     list-style: square;
-    line-height: 
+    line-height: 150%;
     padding-left: 20px;
 }
 
@@ -159,6 +159,15 @@ h5 {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
+}
+
+.vision-header-img {
+    max-width: 880px;
+    padding-bottom: 20px;
+}
+
+.vision-img {
+    max-width: 440px;
 }
 
 /* header */
@@ -289,6 +298,26 @@ header .logo {
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.main-content .vision-content {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.main-content .vision-content .text-content {
+    text-align: justify;
+    padding: 15px;
+    max-width: 50%;
+    line-height: 140%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    max-height: 440px;
+
+}
+
 
 .main-content .top-content {
   padding: 0 10px;
