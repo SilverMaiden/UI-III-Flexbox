@@ -139,8 +139,9 @@ body {
   font-family: "Titillium Web", sans-serif;
 }
 
-ul {
+ul.services-facts-list {
     list-style: square;
+    line-height: 
     padding-left: 20px;
 }
 
@@ -243,6 +244,20 @@ header .logo {
     padding-top: 39px;
 
 }
+
+.bottom-content .services-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-content .services-content .text-content {
+    width: 48%;
+    text-align: justify;
+
+}
+
+
+
 .main-content .services-content {
     display: flex;
     flex-flow: wrap;
@@ -251,7 +266,8 @@ header .logo {
 }
 
 .main-content .services-content .text-content {
-    background: gray;
+    text-align: justify;
+    background: #F5F5F5;
     width: 48%;
     border-style: solid;
     border-width: 1px;
